@@ -22,7 +22,7 @@ fn main() {
       Some(num) => num,
       None      => {
           println!("Please input a number!");
-          return;
+          continue;
       }
     };
 
